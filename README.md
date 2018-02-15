@@ -26,7 +26,7 @@ To use the tool, follow this steps
 
 3) Add a new custom field called "MacAddress" to your Other Asset object via the setup section in Samanage. The tool will populate this field with the MacAddress of the collected devices.
 
-4) Install the samanage ruby gem `gem install samanage`
+4) Install the samanage, nmap and mac_vendor ruby gems `gem install samanage ruby-nmap mac_vendor`
 
 5) Edit the sample code to provide your subnet prefix - for example 192.168... that means that the entire subnet of 192.168 will be scanned. You can provide multiple subnet ranges by separating them via commas. (Line #39)
 ```ruby
